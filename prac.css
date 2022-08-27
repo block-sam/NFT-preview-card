@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+    
+}
+
+/* card styling*/
+.main-content{
+    background-color:  hsl(216, 50%, 16%);
+    height: 500px;
+    width: 300px;
+    margin: auto;
+    margin-top: 35px;
+    text-align: center;
+    padding: 25px 25px;
+    border-radius: 20px;
+    box-shadow: 0 10px 10px 10px hsl(215, 100%, 11%);
+    
+}
+
+.card-image img{
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    
+}
+
+/* text */
+
+.text-1 h2{
+    font-weight: 700;
+    font-size: 18px;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 15px;
+    text-align: left;
+    
+}
+
+
+.text-2 p{
+    font-size: 15px;
+    color: hsl(0, 0%, 100%);
+    font-weight: 100;
+    text-align: left;
+    opacity: .5;
+    margin-bottom: 15px;
+}
+
+.text-3{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    border-bottom: 2px solid hsl(215, 32%, 27%);
+    padding-bottom: 15px;
+}
+
+.text-3 .eth-icon{
+    color: hsl(0, 0%, 100%);
+    text-align: left;
+    margin-right: 5px;
+    
+}
+
+.text-3 .eth-icon .eth-value{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-3 .eth-value{
+    color: hsl(178, 100%, 50%);
+    font-family: "Outfit", sans-serif;
+    font-size: 14px;
+}
+
+.text-3 .clock{
+    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 60px;
+    
+}
+
+.text-3 .clock .clock-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-3 .clock-text{
+    font-size: 15px;
+    color: #666666;
+    margin-left: 5px;
+    font-weight: 500;
+}
+
+/* avatar */
+
+.text-4 {
+    display: flex;
+    align-items: center;
+    
+    margin-top: 25px;
+    
+}
+
+.text-4 #avatar{
+    width: 10%;
+    text-align: left;
+    display: flex;
+    
+}
+
+.text-4 .avatar-text{
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    color: #666666;
+}
+
+.text-4 .avatar-name{
+    margin-left: 5px;
+    color:  hsl(0, 0%, 100%);
+    font-weight: 800;
+}
+
+
+
+
+
