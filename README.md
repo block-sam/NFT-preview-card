@@ -1,2 +1,2 @@
 # NFT-preview-card
-just a small project to always remember where it all began
+just a small project to always remind me where it all began
